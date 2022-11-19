@@ -13,7 +13,7 @@ h1 {
     overflow: hidden;
     position: relative;
     font-family: monospace;
-    font-size: 20px;
+    font-size: clamp(.8rem, calc(.8rem + .5vw), 1.25rem);
 
 }
 
